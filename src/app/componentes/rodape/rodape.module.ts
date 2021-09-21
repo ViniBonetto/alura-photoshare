@@ -11,6 +11,8 @@ import { RodapeComponent } from './rodape.component';
     CommonModule,
     RouterModule,
   ],
-  exports:[RodapeComponent]
+  exports:[
+    RodapeComponent,
+  ]
 })
 export class RodapeModule { }

@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   templateUrl: './cabecalho.component.html',
   styleUrls: ['./cabecalho.component.css']
 })
-export class CabecalhoComponent {
+export class CabecalhoComponent implements OnInit{
 
   user$ = this.usuarioService.retornaUsuario();
 
@@ -16,5 +16,8 @@ export class CabecalhoComponent {
   logout(){
     this.usuarioService.logout()
     this.router.navigate(['']);
+  }
+
+  ngOnInit(): void {
   }
 }

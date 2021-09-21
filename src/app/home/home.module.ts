@@ -1,3 +1,5 @@
+import { RodapeComponent } from './../componentes/rodape/rodape.component';
+import { CabecalhoComponent } from './../componentes/cabecalho/cabecalho.component';
 import { MensagemModule } from './../componentes/mensagem/mensagem.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
