@@ -1,6 +1,6 @@
-export interface Postagem {
+export interface Animal {
   id: number;
-  postData: Date;
+  postDate: Date;
   url: string;
   description: string;
   allowComments: boolean;
@@ -9,4 +9,4 @@ export interface Postagem {
   userId: number;
 }
 
-export type Postagens = Array<Postagens>;
+export type Animais = Array<Animal>;
