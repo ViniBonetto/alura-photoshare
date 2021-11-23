@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'gatitobook'`, () => {
+  it(`should have as title 'PhotoShare'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('gatitobook');
+    expect(app.title).toEqual('PhotoShare');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('gatitobook app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('PhotoShare app is running!');
   });
 });
